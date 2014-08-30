@@ -20,13 +20,6 @@
          - get both P and T with a single call to getPT
 */
 /**************************************************************************/
-#if ARDUINO >= 100
- #include "Arduino.h"
-#else
- #include "WProgram.h"
-#endif
-
-#include <Wire.h>
 
 #include "Adafruit_MPL115A2.h"
 
